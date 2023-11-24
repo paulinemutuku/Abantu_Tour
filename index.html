@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AbantuTour - Tourist Website</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!-- custom cursors  -->
+    <div class="cursors"></div>
+    <div class="cursor-2"></div>
+
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+        
+    <!-- header section starts  -->
+
+    <header>
+
+        <a href="#" class="logo"> <span>AbantuTour</span> </a>
+
+        <nav class="navbar">
+            <a href="#home"><i class="fa fa-home"></i> home</a>
+            <a href="#about"><i class="fa fa-user"></i> about</a>
+            <a href="#service"><i class="fa fa-server"></i> service</a>
+            <a href="#contact"><i class="fa fa-envelope"></i> contact</a>
+        </nav>
+
+       
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <span class="hi"> Hello! </span>
+            <h3> Welcome <span> to Rwanda and discover the land of a thousand hills </span> </h3>
+            <div class="container">
+                <p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+            </div>
+            <a href="#about" class="btn">about us</a>
+        </div>
+
+        <div class="image">
+            <img src="images/rwanda hills.jpg" alt="">
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> about <span> us </span> </h1>
+
+        <div class="row-1">
+
+            <div class="image">
+                <img src="images/about abantutour.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3 style="font-size: 30px;"> AbantuTour </h3>
+                <p style="text-transform: none;">The AbantuTour website is an online platform specifically designed to promote tourist attractions in Rwanda. It aims to provide a user-friendly experience for both local and international visitors. The website features a login option, allowing users to access their personal portal and a search bar to explore different places to visit in Rwanda. Even without logging in, users can utilize the search functionality. The website showcases top destination places through pictures and descriptions, allowing visitors to get a glimpse of what each place has to offer. Additionally, the site displays pictures of recreational sites, highlighting the various leisure activities available. The About Us section introduces the team behind the website, and the Contact Us section provides contact numbers, email information, and social media links. The project's primary goals include promoting Rwanda's tourism, offering personalized user portals, and facilitating communication with visitors. The target audience comprises individuals interested in exploring Rwanda's tourist attractions. </p>
+                <div class="box-container">
+                    <div class="box" >
+                        <p> <span> city : </span> Kigali, Rwanda </p>
+                        <p> <span> phone1 : </span> +254791622725 </p>
+                    </div>
+                    <div class="box" >
+                        <p> <span> email : </span><a href="mailto:p.mutuku@alustudent.com"> p.mutuku@alustudent.com </a></p>
+                        <p> <span> phone2 : </span> +250791704071 </p>
+                    </div>
+
+        </div>
+    </section>
+
+    <!-- about section ends -->
+
+
+<!-- service section starts  -->
+<section class="service" id="service">
+    <h1 class="heading"> <span> our </span> services </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/akagera.jpg" alt="Akagera Park" style="width: 100%; height: 100%;">
+            <h3>Akagera Park</h3>
+            <!-- Keep the title below the image -->
+        </div>
+
+        <div class="box">
+            <img src="images/canopy 2.jpg" alt="Nyungwe Canopy Walk" style="width: 100%; height: 100%;">
+            <h3>Nyungwe Canopy Walk</h3>
+            <!-- Keep the title below the image -->
+        </div>
+
+        <div class="box">
+            <img src="images/nyandungu.jpg" alt="Nyandungu Ecossytem" style="width: 100%; height: 100%;">
+            <h3>Nyandungu Ecosystem</h3>
+            <!-- Keep the title below the image -->
+        </div>
+
+        <div class="box">
+            <img src="images/rukali.jpg" alt="Rukali Palace" style="width: 100%; height: 100%;">
+            <h3>Rukali Palace</h3>
+            <!-- Keep the title below the image -->
+        </div>
+
+        <!-- Add two more boxes for the new row -->
+        <div class="box">
+            <img src="images/virunga.jpg" alt="Virunga Mountains" style="width: 100%; height: 100%;">
+            <h3>Virunga Mountains</h3>
+            <!-- Keep the title below the image -->
+        </div>
+
+        <div class="box">
+            <img src="images/nyungwe lodge.jpg" alt="Nyungwe Lodge" style="width: 100%; height: 100%;">
+            <h3>Nyungwe Lodge</h3>
+            <!-- Keep the title below the image -->
+        </div>
+    </div>
+
+    <br><br><br><br><br><br>
+</section>
+<!-- service section ends -->
+
+
+
+
+
+
+
+
+    <!-- Modal Overlay -->
+    <div class="modal-overlay">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="modal-details"></div>
+      </div>
+    </div>
+    <!-- Modal Overlay -->
+    <br><br><br><br>
+
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> contact <span> us </span> </h1>
+
+
+        <div class="row">
+
+            <form action="https://formsubmit.co/2105707c557cdddc8d0763c6f7985ea9" method="POST">
+
+                <input type="text" placeholder="name" class="box" name="Name" required>
+                <input type="email" placeholder="email" class="box" name="Email" required>
+
+                <textarea name="Message" placeholder="message" id="" cols="30" rows="10" required></textarea>
+
+                <input type="submit" class="btn" value="send message">
+
+            </form>
+
+     </div>
+
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section  -->
+    <footer class="footer"><i class="fas fa-regular fa-copyright"></i> Copyright <span><a target="blank"> AbantuTour </a></span> | all rights reserved! </footer>
+
+    <a class="back-to-top hidden" href="#"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+
